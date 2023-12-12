@@ -1,4 +1,4 @@
-package com.laze.outrun;
+package com.laze.outrun.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

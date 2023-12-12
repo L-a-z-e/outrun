@@ -1,4 +1,4 @@
-package com.laze.outrun;
+package com.laze.outrun.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
