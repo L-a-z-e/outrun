@@ -20,11 +20,12 @@ public class LoginControllerTest {
 
     @Autowired
     private MockMvc mockMvc;
-    String login  = "login";
+    String url  = "login";
     @Test()
     public void login() throws Exception {
         mockMvc.perform(get("/login"))
-                .andExpect(status().isOk());
+                .andExpect(status().isOk())
+                .andExpect(content().string(url));
 
     }
 }
