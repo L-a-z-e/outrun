@@ -33,7 +33,7 @@ public class LoginControllerTest {
     }
     @Test
     public void sampleDtoReturn() throws Exception {
-        String name = "login";
+        String name = "user";
         int amount = 1000;
 
         // param - API테스트에 사용될 요청 파라미터 설정, String 값만 허용 (숫자, 날짜도 String으로 변경해야함)
